@@ -31,7 +31,7 @@ const Carousel = () => {
     }
     return (
         <div className='Carouselimg flex-col items-center justify-center'>
-            <h1 className='text-center text-3xl sm:text-5xl p-4 font-bold text-[#87CEEB]'>Cryptoverse</h1>
+            <h1 className='text-center text-3xl sm:text-5xl p-4 font-bold text-[#87CEEB]'>Crypto-Current</h1>
         <p className=' text-center text-sm text-[#87CEEB]'>Get All The Info Regarding Your Favorite Crypto Currency</p>
             <AliceCarousel autoPlay infinite autoPlayInterval={1800} disableButtonsControls disableDotsControls responsive={{ 0: { items: 2 }, 476: { items: 3 }, 768: { items: 4 }, }} mouseTracking
                 items={arr?.map((curr) => (
